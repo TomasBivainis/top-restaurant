@@ -1,10 +1,10 @@
 export default function componentMenu(){
   const element = document.createElement('div');
 
-  const h1Title = document.createElement('h1');
-  h1Title.innerHTML = 'Menu';
+  const title = document.createElement('h2');
+  title.innerHTML = 'Menu';
 
-  element.append(h1Title);
+  element.append(title);
 
   const ulList = document.createElement('ul');
   const menuList = ['Pizza', 'Burger', 'Butter', 'Rolls', 'Ribs', 'BBQ'];

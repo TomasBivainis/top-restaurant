@@ -1,5 +1,15 @@
 body {
   padding: 20px;
+  margin: 0;
+}
+
+p, h1 {
+  padding: 0;
+  margin: 0;
+}
+
+#name {
+  padding-bottom: 20px;
 }
 
 .container {
@@ -13,11 +23,6 @@ body {
 .text {
   align-self: center;
   justify-self: center;
-}
-
-p {
-  padding: 0;
-  margin: 0;
 }
 
 .image {
